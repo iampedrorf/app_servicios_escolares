@@ -1,4 +1,4 @@
-import 'package:app_sistema_escolar/models/subject.dart';
+import 'subject.dart';
 
 class Estudiante {
   String id;
