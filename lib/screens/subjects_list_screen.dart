@@ -1,4 +1,4 @@
-import 'package:app_servicio_escolar/screens/subjects_screen.dart';
+import 'package:app_sistema_escolar/screens/subjects_screen.dart';
 import 'package:flutter/material.dart';
 import '../models/subject.dart'; // Asegúrate de tener el modelo de Materia en esta ruta
 

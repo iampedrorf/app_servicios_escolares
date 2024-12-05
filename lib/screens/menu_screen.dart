@@ -1,5 +1,5 @@
-import 'package:app_servicio_escolar/screens/student_list_screen.dart';
-import 'package:app_servicio_escolar/screens/subjects_list_screen.dart';
+import 'package:app_sistema_escolar/screens/student_list_screen.dart';
+import 'package:app_sistema_escolar/screens/subjects_list_screen.dart';
 import 'package:flutter/material.dart';
 import '../main.dart';
 import '../models/student.dart';
