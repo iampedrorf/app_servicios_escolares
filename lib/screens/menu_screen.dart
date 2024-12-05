@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:app_servicio_escolar/main.dart';
 import 'package:app_servicio_escolar/screens/student_list_screen.dart';
 import 'package:app_servicio_escolar/screens/subjects_list_screen.dart';
 import 'package:flutter/material.dart';
+import '../main.dart';
 import '../models/student.dart';
 import '../models/subject.dart';
 import 'login_screen.dart';
@@ -17,9 +16,6 @@ class MenuScreen extends StatefulWidget {
 }
 
 class _MenuScreenState extends State<MenuScreen> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold();
   void updateStudentInList(Estudiante updatedStudent) {
     setState(() {
       int index = estudiantesRegistrados.indexWhere(
